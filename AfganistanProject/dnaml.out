@@ -1,0 +1,53 @@
+
+Nucleic acid sequence Maximum Likelihood method, version 3.696
+
+
+Empirical Base Frequencies:
+
+   A       0.20783
+   C       0.27811
+   G       0.33389
+  T(U)     0.18017
+
+
+Transition/transversion ratio =   2.000000
+
+
+           +M_caprae  
+        +--4  
+        |  |  +M_canettii
+     +--5  +--1  
+     |  |     +M_africanu
+  +--3  |  
+  |  |  +M_bovis   
+  |  |  
+  |  +--M_tubercul
+  |  
+  2-M_microti 
+  |  
+  +M_sp.     
+
+
+remember: this is an unrooted tree!
+
+Ln Likelihood = -5844.83166
+
+ Between        And            Length      Approx. Confidence Limits
+ -------        ---            ------      ------- ---------- ------
+
+     2          M_sp.             0.00000     (     zero,    infinity)
+     2             3              0.00000     (     zero,    infinity)
+     3             5              0.00000     (     zero,    infinity)
+     5             4              0.00000     (     zero,    infinity)
+     4          M_caprae          0.00000     (     zero,    infinity)
+     4             1              0.00003     (     zero,    infinity)
+     1          M_canettii        0.00027     (     zero,     0.00081)
+     1          M_africanu        0.00003     (     zero,    infinity)
+     5          M_bovis           0.00006     (     zero,    infinity)
+     3          M_tubercul        0.04848     (  0.04110,     0.05587) **
+     2          M_microti         0.00055     (     zero,     0.00132) *
+
+     *  = significantly positive, P < 0.05
+     ** = significantly positive, P < 0.01
+
+
